@@ -12,7 +12,4 @@ fun Route.root() {
             status = HttpStatusCode.OK
         )
     }
-    get("/heroes") {
-
-    }
 }
