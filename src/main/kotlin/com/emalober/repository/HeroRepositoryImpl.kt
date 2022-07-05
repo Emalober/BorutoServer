@@ -399,8 +399,8 @@ class HeroRepositoryImpl : HeroRepository {
         return ApiResponse(
             success = true,
             message = "ok",
-            prevPage = calculateNextPage(page),
-            nextPage = calculatePrevPage(page),
+            prevPage = calculatePrevPage(page),
+            nextPage = calculateNextPage(page),
             heroes = heroes[page].orEmpty()
         )
     }
